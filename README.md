@@ -17,8 +17,9 @@ Distro-Finder is a simple Bash script designed to identify the Linux distributio
 
 - A Unix-like operating system (Linux).
 - Bash shell.
+- git.
 
-**Clone the repository**:
+**Install**:
 
 1.     git clone https://github.com/Timfedora/Distro-Finder.git
 2.     cd Distro-Finder
