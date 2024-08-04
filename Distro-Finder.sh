@@ -5,12 +5,13 @@ detect_distro() {
     if [ -f /etc/os-release ]; then
         . /etc/os-release
         case "$ID" in
-            arch) echo "Arch Linux";;
+            arch) echo "Arch";;
             fedora) echo "Fedora";;
-            rhel) echo "Red Hat Enterprise Linux";;
+            rhel) echo "RHEL";;
             centos) echo "CentOS";;
             ubuntu) echo "Ubuntu";;
             debian) echo "Debian";;
+            opensuse) echo "OpenSuse";; 
             *) echo "Unknown distribution";;
         esac
     else
